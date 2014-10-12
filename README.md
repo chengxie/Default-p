@@ -1,4 +1,4 @@
-Default-p
+Default-p Theme For Typecho
 =========
 
 ![image](http://microhu.u.qiniudn.com/microimg/usr/uploads/2014/07/1924129183.png)
