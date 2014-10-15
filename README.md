@@ -11,4 +11,4 @@ http://www.microhu.com/default-p-theme.html
 ####主题预览：
 http://yzm.im/
 
-[微狐网] 出品
+微狐网：http://www.microhu.com/
