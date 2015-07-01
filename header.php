@@ -16,7 +16,7 @@
         ), '', ' - '); ?><?php $this->options->title(); ?></title>
 
 <!-- CDN路径 -->
-<link rel="stylesheet" href="<?php $this->options->themeUrl('css/metro-bootstrap.css'); ?>">
+<link rel="stylesheet" href="<?php $this->options->themeUrl('css/bootstrap.min.css'); ?>">
 <link rel="stylesheet" href="<?php $this->options->adminUrl('css/normalize.css'); ?>">
 <link rel="stylesheet" href="<?php $this->options->adminUrl('css/grid.css'); ?>">
 <link rel="stylesheet" href="<?php $this->options->themeUrl('style.css'); ?>">
@@ -26,8 +26,8 @@
     <script src="<?php $this->options->adminUrl('js/respond.js'); ?>"></script>
     <![endif]-->
 
-<script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
-<script src="http://cdn.bootcss.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 		<!-- 通过自有函数输出HTML头部信息 -->
 		<?php $this->header('generator=&template=&pingback=&xmlrpc=&wlw='); ?>
@@ -49,7 +49,6 @@
 					<div class="col-mb-12">
 						<nav id="nav-menu" class="clearfix" role="navigation">
 							<a<?php if($this->is('index')): ?> class="current"<?php endif; ?> href="<?php $this->options->siteUrl(); ?>"><span class="glyphicon glyphicon-home"></span> 首页</a>
-							<a<?php if($this->is('page', $pages->slug)): ?> class="current"<?php endif; ?> href="<?php $this->options->siteUrl(); ?>guestbook.html"><span class="glyphicon glyphicon-pencil"></span> 留言</a>
 							<a href="<?php $this->options->siteUrl(); ?>feed"><span class="glyphicon glyphicon-paperclip"></span> 订阅</a>
 						</nav>
 					</div>

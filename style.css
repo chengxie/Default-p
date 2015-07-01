@@ -130,7 +130,7 @@ textarea {
 	text-indent:-9999em;
 }
 .post {
-	padding:15px 0 20px;
+	padding:15px 0;
 	border-bottom:1px solid #EEE;
 }
 .post-title,#comments h3 {
@@ -154,6 +154,7 @@ textarea {
 }
 .post .tags {
 	clear:both;
+	margin-bottom: 5px;
 }
 .archive-title {
 	margin:1em 0 -1em;
