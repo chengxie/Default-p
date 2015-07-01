@@ -260,9 +260,9 @@ textarea {
 	word-wrap:break-word;
 }
 #footer {
-border-top:1px solid #ddd;
-padding:1em 0;
-	margin:2em 0;
+	border-top:1px solid #ddd;
+	margin: 2em 0 0 0;
+	padding: 1em 0 0 0;
 	line-height:2;
 	text-align:center;
 	color:#999;
@@ -406,10 +406,23 @@ img.alignright {
 	font-weight:normal;
 	line-height:33px;
 }
-.comment-content{margin-top: 10px;
-font-size: 14px;}
-.links{color:#999}
-.links li{float:left;margin-right:10px;
-list-style-type: none;color:#999;font-family: Menlo,Monaco,Consolas,"Lucida Console","Courier New",monospace;}
-.links li a{color:#999}
-.pagination{margin:0}
+.comment-content {
+	margin-top: 10px;
+	font-size: 14px;
+}
+.links {
+	color:#999;
+}
+.links li {
+	float:left;
+	margin-right:10px;
+	list-style-type: none;
+	color:#999;
+	font-family: Menlo,Monaco,Consolas,"Lucida Console","Courier New",monospace;
+}
+.links li a {
+	color:#999;
+}
+.pagination {
+	margin:0;
+}
