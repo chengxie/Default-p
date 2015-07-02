@@ -4,7 +4,7 @@
  * 
  * @package Default-p
  * @author Typecho Team & Mike
- * @version 1.1 (15.07.01)
+ * @version 1.3(15.07.02)
  * @link http://www.microhu.com
  */
 

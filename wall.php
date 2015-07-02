@@ -13,6 +13,7 @@
    			<div class="readers" style="padding: 15px;">		
    				<?php getFriendWall(); ?>
    			</div>
+			<div style="clear:both"></div>
    			<?php $this->content(); ?>
    		</div>
    		<?php $this->need('comments.php'); ?>

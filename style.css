@@ -43,15 +43,7 @@ blockquote p {
 	line-height:2;
 	font-size:12px
 }
-input[type="text"],input[type="email"],input[type="url"],input[type="password"],textarea {
-	padding:5px;
-	border:1px solid #E9E9E9;
-	width:100%;
-	border-radius:2px;
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	box-sizing:border-box;
-}
+
 textarea {
 	resize:vertical;
 }
@@ -249,8 +241,8 @@ textarea {
 }
 #comment-form label {
 	display:block;
-	margin-bottom:.5em;
 	font-weight:bold;
+	margin-bottom:0;
 }
 #comment-form .required:after {
 	content:" *";
@@ -308,6 +300,10 @@ textarea {
 	padding:8px;
 	font-size:16px;
 	background-color:rgba(238,238,238,0.56);
+}
+.post-content h4 {
+	font-size: 14px;
+  	font-weight: bold;
 }
 .aligncenter,div.aligncenter {
 	display:block;
